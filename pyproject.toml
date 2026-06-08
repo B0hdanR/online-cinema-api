@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "online-cinema-api"
+version = "0.1.0"
+description = "Online Cinema REST API"
+authors = ["Bohdan Romanov <bytovskyden@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
