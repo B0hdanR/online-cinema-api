@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     SECRET_KEY: str = "dev_secret_key"
 
     DATABASE_URL: str = (
-        "postgresql+asyncpg://postgres:postgres@localhost:5432/online_cinema"
+        "postgresql+asyncpg://user:password@localhost:5432/cinema_db"
     )
 
     model_config = SettingsConfigDict(
